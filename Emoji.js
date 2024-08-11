@@ -7740,6 +7740,7 @@ const EmojiPicker = function(options) {
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        background-color: black; // Your prefer color (I wrote this because if you change the theme to black, there will be a visual bug with the background of the 'search' area. Translated by the translator)
                     }
 
                     .fg-triangle {
